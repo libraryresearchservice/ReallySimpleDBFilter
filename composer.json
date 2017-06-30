@@ -1,0 +1,25 @@
+{
+    "name": "lrs/reallysimpledbfilter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Library Research Service",
+            "email": "lrs@lrs.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lrs\\ReallySimpleDBFilter": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
